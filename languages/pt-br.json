@@ -1,0 +1,45 @@
+{
+  "name": "Nome",
+  "email": "Email",
+  "password": "Senha",
+  "login": {
+    "title": "Entre em sua conta",
+    "submit": "Entrar",
+    "forgot": "Esqueci minha senha",
+    "noAccount": "Ainda não tenho uma conta",
+    "success": "Logado com sucesso!"
+  },
+  "forgot": {
+    "title": "Redefina sua senha",
+    "description": "Informe seu email, enviaremos uma confirmação com o link de redefinição da senha",
+    "submit": "Enviar confirmação",
+    "checkEmail": "Verifique seu email, enviamos o link para redefinição da senha.",
+    "success": "Sua senha foi alterada com sucesso!",
+    "backToLogin": "Voltar ao Login",
+    "enterNewPassword": "Digite sua nova senha:",
+    "newPassword": "Nova senha",
+    "reset": "Redefinir"
+  },
+  "register": {
+    "title": "Crie uma nova conta",
+    "success": "Conta criada com sucesso!",
+    "submit": "Criar conta",
+    "haveAnAccount": "Eu já tenho uma conta"
+  },
+  "forgotPasswordMail": {
+    "subject": "Redefinir a senha",
+    "description": "Você solicitou a recuperação da sua conta, para concluir clique no link abaixo. Caso não tenha solicitado uma nova senha, apenas ignore este email.",
+    "hello": "Olá",
+    "redirect": "Clique aqui para alterar sua senha"
+  },
+  "errors": {
+    "emailNotExists": "Esse email não está registrado",
+    "emailInUse": "Esse email já está em uso",
+    "unknownError": "Ocorreu um erro desconhecido",
+    "wrongCredentials": "Email ou senha incorreta",
+    "failedOnCreateUser": "Ocorreu um erro ao criar o usuário",
+    "failedOnUpdatePassword": "Ocorreu um erro ao atualizar a senha",
+    "failedOnSendMail": "Ocorreu um erro ao enviar o email",
+    "failedOnCheckToken": "Não foi possível validar o token de segurança"
+  }
+}

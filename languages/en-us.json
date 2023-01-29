@@ -1,0 +1,45 @@
+{
+  "name": "Name",
+  "email": "Email",
+  "password": "Password",
+  "login": {
+    "title": "Log in to your account",
+    "submit": "Login",
+    "forgot": "I forgot my password",
+    "noAccount": "I dont have an account",
+    "success": "Logged successfully!"
+  },
+  "forgot": {
+    "title": "Reset your password",
+    "description": "Enter your email, we will send you a confirmation with password reset link.",
+    "submit": "Send confirmation",
+    "checkEmail": "Check your email, we have sent you a link to reset your password.",
+    "success": "Your password has changed successfully!",
+    "backToLogin": "Back to Login",
+    "enterNewPassword": "Enter new password:",
+    "newPassword": "New password",
+    "reset": "Reset"
+  },
+  "register": {
+    "title": "Create a new account",
+    "success": "Check your email to complete the register process.",
+    "submit": "Create account",
+    "haveAnAccount": "I already have an account"
+  },
+  "forgotPasswordMail": {
+    "subject": "Password reset",
+    "description": "You requested the recovery of your account, to finish click on the link below. If you did not requested a new password, just ignore this email.",
+    "hello": "Hello",
+    "redirect": "Click here to change your password"
+  },
+  "errors": {
+    "emailNotExists": "This email is not registered",
+    "emailInUse": "This email is already in use",
+    "unknownError": "An unknown error has occurred",
+    "wrongCredentials": "Email or password incorrect",
+    "failedOnCreateUser": "An error has occured on create user",
+    "failedOnUpdatePassword": "An error has occured on update password",
+    "failedOnSendMail": "An error has occurred on send the email",
+    "failedOnCheckToken": "An error has occurred validate security token"
+  }
+}
